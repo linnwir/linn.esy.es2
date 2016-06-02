@@ -1,0 +1,76 @@
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ ls
+'0503, Javascript'/  README.md  testar/
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git add .
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testar/Nytt textdokument.txt
+
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git pull ogigin master
+fatal: 'ogigin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git pull origin master
+From https://github.com/linnwir/0503-Javascript
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git push origin master
+Username for 'https://github.com': linnwir
+Everything up-to-date
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testar/Nytt textdokument.txt
+
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git commit -m "bild på testar"
+[master 048ae92] bild på testar
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testar/Nytt textdokument.txt
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as C
+onsolas!
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git pull origin master
+From https://github.com/linnwir/0503-Javascript
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$ git push origin master
+Username for 'https://github.com': linnwir
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 375 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/linnwir/0503-Javascript.git
+   b774afb..048ae92  master -> master
+
+Elev6@KSD-6 MINGW64 ~/projects/0503-Javascript (master)
+$
